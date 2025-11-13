@@ -1,0 +1,48 @@
+# The URL the site will be built for.
+base_url = "https://joserlopes.github.io"
+description = "My name is José Lopes and this is my personal website"
+theme = "linkita"
+title = "José Lopes"
+author = "José Lopes"
+
+default_language = "en"
+generate_feeds = false
+feed_filenames = ["atom.xml"]
+build_search_index = true
+
+[[taxonomies]]
+name = "tags"
+feed = true
+paginate_by = 4
+
+[[taxonomies]]
+name = "authors"
+feed = true
+paginate_by = 4
+
+[extra]
+header_menu_name = "menu_name"
+header_buttons = [
+  "home_button",
+  "theme_select",
+  "search_button",
+  "translations_select",
+]
+
+[extra.menus]
+menu_name = [
+  { url = "$BASE_URL/projects/", name = "Projects" },
+  { url = "$BASE_URL/blog/", name = "Archive" },
+  { url = "$BASE_URL/tags/", name = "Tags" },
+  { url = "$BASE_URL/about/", name = "About" },
+]
+
+[extra.profiles.joserlopes]
+name = "José Lopes"
+bio = "Welcome to my personal website. Here you will find a place full of my random thoughts. Who knows, maybe some of them might actually help someone..."
+url = "https://joserlopes.github.io"
+social = [
+  { name = "github", url = "https://github.com/joserlopes" },
+  { name = "linkedin", url = "https://linkedin.com/in/jos%C3%A9-lopes-107989298" },
+  { name = "email", url = "mailto:josersl2003@gmail.com" },
+]
