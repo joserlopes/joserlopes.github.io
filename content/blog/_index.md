@@ -1,6 +1,8 @@
 +++
-title = "List of blog posts"
-sort_by = "date"
-template = "blog.html"
-page_template = "blog-page.html"
+title = "Archive"
+description = ""
+template = "archive.html"
+transparent = true
+[extra]
+date_format = "%m-%d"
 +++
