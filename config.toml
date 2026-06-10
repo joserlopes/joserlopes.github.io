@@ -35,6 +35,7 @@ menu_name = [
   { url = "$BASE_URL/blog/", name = "Archive" },
   { url = "$BASE_URL/tags/", name = "Tags" },
   { url = "$BASE_URL/about/", name = "About" },
+  { url = "$BASE_URL/cv.pdf", name = "CV" },
 ]
 
 [extra.profiles.joserlopes]
@@ -43,6 +44,6 @@ bio = "Welcome to my personal website. Here you will find a place full of my ran
 url = "https://joserlopes.github.io"
 social = [
   { name = "github", url = "https://github.com/joserlopes" },
-  { name = "linkedin", url = "https://linkedin.com/in/jos%C3%A9-lopes-107989298" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/jrslopes/" },
   { name = "email", url = "mailto:josersl2003@gmail.com" },
 ]
