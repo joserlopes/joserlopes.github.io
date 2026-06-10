@@ -1,8 +1,7 @@
 [[project]]
-name = "lorem"
-desc = "Lorem ipsum dolor sit."
-tags = ["lorem", "ipsum"]
+name = "X++"
+desc = "An interpreter for a functional programming language developed as part of the Programming Languages course"
+tags = ["Programming Languages", "Interpreter"]
 links = [
-  { name = "homepage", url = "https://example.com" },
-  { name = "source", url = "https://example.com" },
+  { name = "GitHub Repository", url = "https://github.com/joserlopes/Programming-Languages" },
 ]
