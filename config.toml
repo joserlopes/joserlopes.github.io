@@ -10,15 +10,6 @@ generate_feeds = false
 feed_filenames = ["atom.xml"]
 build_search_index = true
 
-[[taxonomies]]
-name = "tags"
-feed = true
-paginate_by = 4
-
-[[taxonomies]]
-name = "authors"
-feed = true
-paginate_by = 4
 
 [extra]
 header_menu_name = "menu_name"
@@ -33,7 +24,6 @@ header_buttons = [
 menu_name = [
   { url = "$BASE_URL/projects/", name = "Projects" },
   { url = "$BASE_URL/blog/", name = "Archive" },
-  { url = "$BASE_URL/tags/", name = "Tags" },
   { url = "$BASE_URL/about/", name = "About" },
   { url = "$BASE_URL/cv.pdf", name = "CV" },
 ]
